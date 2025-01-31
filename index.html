@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-03 responsive website</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <!-- fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+    <!-- tailwind cdn and daisy ui -->
+     
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+<body>
+    <!-- header section start -->
+    <header>
+      <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a class="text-xl">Product</a></li>
+                  <li><a class="text-xl">Service</a></li>
+                  <li><a class="text-xl">Contact us</a></li>
+                </ul>
+              </div>
+              <a class=" text-xl"><img src="./c2-assets/logo-header.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-xl">Product</a></li>
+                <li><a class="text-xl">Service</a></li>
+                <li><a class="text-xl">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="space-x-6">
+                    <a href=""><i class="fa-solid fa-magnifying-glass text-xl md:text-2xl"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping text-xl md:text-2xl"></i></a>
+                </div>
+                <button class="btn btn-outline btn-success text-black ml-6">Login</button>
+                <button class="btn  btn-success text-white ml-3">Register</button>
+              
+
+            </div>
+          </div>
+      </nav>
+    </header>
+    <!-- main section start -->
+    <main>
+
+    </main>
+
+    <!-- footer section start -->
+     <footer>
+
+     </footer>
+</body>
+</html>
